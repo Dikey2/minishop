@@ -43,7 +43,7 @@ jobs:
           mvn sonar:sonar
           --no-transfer-progress
           -Dsonar.projectKey=Dikey2_minishop
-          -Dsonar.organization=Dikey2
+          -Dsonar.organization=dikey2
 
       - name: 7 - Publicar reporte de pruebas
         uses: actions/upload-artifact@v4
